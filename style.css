@@ -6,6 +6,7 @@
 
 body {
   margin-top: 100px;
+  margin-bottom: 40px;
 }
 
 h1,
@@ -31,32 +32,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
-@media (max-width: 700px) {
-  h2 {
-    font-size: 30px;
-  }
-  h1 {
-    font-size: 35px;
-  }
-  h3 {
-    font-size: 18px;
-    margin-top: 15px;
-  }
-  h3,
-  h2,
-  p {
-    text-align: center;
-  }
-  a {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-  }
-  .navigation-links {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-}
+
 .container {
   max-width: 1140px;
 }
@@ -118,4 +94,35 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+@media (max-width: 700px) {
+  h2 {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 35px;
+    line-height: 1.5;
+  }
+  h3 {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  h3,
+  h2,
+  p {
+    text-align: center;
+  }
+  a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .navigation-links {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .email-link{
+    font-size: 25px;
+  }
+ 
 }
